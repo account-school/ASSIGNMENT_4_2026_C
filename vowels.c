@@ -52,11 +52,11 @@ int main() {
     scanf(" ");
     fgets(str,n,stdin);
 
-    printf("%s",str);
+    //printf("%s",str);
     vowelCount = countVowels(str);
     free(str);
     
-    printf("Number of vowels: %d\n", vowelCount);
+    printf("Number of vowels: %d", vowelCount);
 
 
     return 0;
